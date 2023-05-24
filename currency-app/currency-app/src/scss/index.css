@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+html, body {
+  height: 100%;
+}
+
+.form-control.is-invalid, .form-control.is-valid, .form-control.is-valid:focus {
+  background-image: none;
+  border-color: none;
+  box-shadow: none;
+  border: 1px solid #acacac;
+}
+
+.form-control.is-invalid, .form-control.is-invalid:focus {
+  border-color: #dc3545 !important;
+  color: #dc3545 !important;
+  box-shadow: none;
+}/*# sourceMappingURL=index.css.map */
